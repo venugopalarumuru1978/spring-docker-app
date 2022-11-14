@@ -13,4 +13,10 @@ public class TestController {
 	{
 		return "hello docker";
 	}
+	
+	@GetMapping("/welcome")
+	public String GetInfo()
+	{
+		return "Hello jenkins";
+	}
 }
